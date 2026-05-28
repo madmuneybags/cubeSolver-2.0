@@ -15,3 +15,5 @@ PCB:
 
 This project is written in C/C++ and utilizes FreeRTOS on the ESP32. It was developed within PlatformIO and the ESP-IDF framework. The code is still a WIP
 The project is planned to have an HMI. The HMI will allow the user to control the device via a touch screen. The HMI is a display from Nextion. The code to run on the display is complete. It will communicate with the ESP via serial communication. 
+
+The system uses Tasks, Queues, MessageBuffers, and a FSM to ensure correct operation. 
